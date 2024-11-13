@@ -12,7 +12,7 @@ plt.ylabel('(weight)')
 plt.legend()
 
 plt.grid(True)
-plt.savefig("./linechart.png")
+plt.savefig("./idea.png")
 
 #2번 문제
 import matplotlib.pyplot as plt
@@ -29,7 +29,7 @@ plt.title('Fruit Sales')
 plt.xlabel('Fruit')
 plt.ylabel('Sales')
 
-plt.savefig("./bar_chart.png")
+plt.savefig("./idea.png")
 
 #3번 문제
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ plt.title('Histogram chart')
 plt.xlabel('Values')
 plt.ylabel('Frequency')
 
-plt.savefig("./Histogram.png")
+plt.savefig("./idea.png")
 
 #4번 문제
 import matplotlib.pyplot as plt
@@ -59,7 +59,7 @@ plt.clf()
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=['lightblue', 'lightgreen', 'lightcoral', 'lightsalmon'])
 plt.title('Subjects Distribution')
 
-plt.savefig("./piechart.png")
+plt.savefig("./idea.png")
 
 #5번 문제
 import matplotlib.pyplot as plt
@@ -77,7 +77,7 @@ plt.ylabel('Y-axis')
 
 plt.legend()
 
-plt.savefig("./scatter.png")
+plt.savefig("./idea.png")
 
 #6번 문제
 import matplotlib.pyplot as plt
@@ -97,7 +97,7 @@ plt.ylabel('Y-axis')
 
 plt.legend()
 
-plt.savefig("./scatter_2.png")
+plt.savefig("./idea.png")
 
 #7번 문제
 import matplotlib.pyplot as plt
@@ -121,7 +121,7 @@ plt.ylabel('Y-axis')
 
 plt.legend()
 
-plt.savefig("./scatter_with_line.png")
+plt.savefig("./idea.png")
 
 #8번 문제
 import matplotlib.pyplot as plt
@@ -140,7 +140,7 @@ plt.xlabel('Values')
 
 plt.xticks(range(-15, 16, 5))
 
-plt.savefig("./boxplot_2.png")
+plt.savefig("./idea.png")
 
 #9번 문제
 import matplotlib.pyplot as plt
@@ -159,4 +159,4 @@ plt.title('Heatmap Example')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 
-plt.savefig("./heatmap.png")
+plt.savefig("./idea.png")
